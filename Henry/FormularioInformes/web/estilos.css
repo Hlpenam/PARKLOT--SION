@@ -1,38 +1,26 @@
 html,body {
     height:100%;
-    align: center;
 }
-#comentario {
-    height: 400px;
-    width: 400px;
-    align-content: center;
 
-}
 header {
-
+        
     display:block;
     background:#286af0;
     padding:10px 0px;
 }
 section {
-    align-content: center;
     width: 79%;
     background: #ccc;
-    float: left;
+    float: right;
     overflow: auto;
     padding-bottom: 60px;
     padding-top:30px;
+    
+    align-content: center;
 }
-aside #com {
-    float: left;
-    border: 1px solid red;
-    width: 19%;
-    border: 1px solid red;
-/*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
-/*visibility: hidden;*/
 
-aside #comentario {
-    float: right;
+aside {
+    float: left;
     border: 1px solid red;
     width: 19%;
     border: 1px solid red;
@@ -42,7 +30,7 @@ aside #comentario {
 footer {
     position: relative;
     margin-top: -50px;
-    height: 40px;
+    height: 40px; 
     padding:5px 0px;
     clear: both;
     background: #286af0;
@@ -52,3 +40,10 @@ footer {
 figure {
     display: table; margin: 0 auto;
 }
+#form1{
+    align-content: center;
+}
+#vehiculos{
+    align-content: center;
+}
+/*menu vertical*/
