@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+	<script type="text/javascript">
+		function validacion(){
+			if (document.forms[0].isbn.value ===""){
+				alert("datos no validos");
+			}
+			else {
+				document.forms[0].submit();
+			}
+		}
+		</script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>primeros Pasos en NetBeans</title>
+    </head>
+    <body>
+		<h1>Formulario alta Libro</h1>
+		<form action="insertarLibro.jsp">
+			<fieldset>
+				<legend>Formulario alta Libro</legend>
+			<p>ISBN:
+			<input type="text" name="isbn">
+			</p>
+			<p>Titulo:
+			<input type="text" name="titulo">
+			</p>
+			<p>Categoria:
+			<input type="text" name="categoria">
+			<input type="submit" value="Insertar" onclick="validacion()">
+			</p>
+			
+		</fieldset>
+		</form>
+        
+    </body>
+</html>
